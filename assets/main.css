@@ -1,10 +1,22 @@
 /* Start Global */
-body {
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .container {
-  width: 1200px;
-  margin: auto;
+    width: 70%;
+    margin: auto;
+}
+s
+body {}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
 }
 
 /* End Global */
@@ -13,15 +25,38 @@ body {
 .navbar {
     background-color: #929292;
     overflow: hidden;
+    font-size: 20px;
+    font-family:  Calibri;
 }
 
-.navbar .brand{
-
+.navbar .brand {
+    float: left;
+    width: 60%;
 }
 
-.navbar .link{
-    
+.navbar .links {
+    float: left;
+    margin-top: 15px;
+    width: 40%;
+    font-weight: bold;
 }
+
+.navbar .links li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 0px;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar .links li.active {
+    color: #1abc9c;
+    border-bottom: 2px solid #1abc9c;
+}
+.navbar .links li:hover {
+    color: #1abc9c;
+    border-bottom: 2px solid #1abc9c;
+}
+
 
 /* End Navbar */
 
@@ -29,4 +64,5 @@ body {
 .clearfix {
     clear: both;
 }
+
 /* End My constants */
