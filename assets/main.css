@@ -1,0 +1,32 @@
+/* Start Global */
+body {
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+/* End Global */
+
+/* Start Navbar */
+.navbar {
+    background-color: #929292;
+    overflow: hidden;
+}
+
+.navbar .brand{
+
+}
+
+.navbar .link{
+    
+}
+
+/* End Navbar */
+
+/* Start My constants */
+.clearfix {
+    clear: both;
+}
+/* End My constants */
