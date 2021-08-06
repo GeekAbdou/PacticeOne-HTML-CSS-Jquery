@@ -9,7 +9,7 @@
     width: 70%;
     margin: auto;
 }
-s
+
 body {}
 
 ul {
@@ -21,17 +21,23 @@ ul {
 
 /* End Global */
 
-/* Start Navbar */
+/* Start Header */
 .navbar {
     background-color: #929292;
-    overflow: hidden;
     font-size: 20px;
-    font-family:  Calibri;
+    font-family: Calibri;
+    height: 0px;
+    color: #1abc9c;
+    position: relative;
+    z-index: 2;
 }
 
 .navbar .brand {
     float: left;
     width: 60%;
+    color: rgb(230, 230, 230);
+    font: 1em sans-serif;
+    font-size: 22px;
 }
 
 .navbar .links {
@@ -52,13 +58,36 @@ ul {
     color: #1abc9c;
     border-bottom: 2px solid #1abc9c;
 }
+
 .navbar .links li:hover {
     color: #1abc9c;
     border-bottom: 2px solid #1abc9c;
 }
 
 
-/* End Navbar */
+/* End Header */
+
+
+/* Start Slider */
+
+.slider {
+    background-image: url('../images/sildde1 (Custom).jpg');
+}
+
+.slider .overlay {
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+/* End Slider */
+
 
 /* Start My constants */
 .clearfix {
