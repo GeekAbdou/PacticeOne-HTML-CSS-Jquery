@@ -20,7 +20,7 @@ $(document).ready(function () {
     pager: false,
   });
   $(".bgimg .slider li").each(function () {
-    $(this).css("padding-top",20);
+    $(this).css("padding-top",20); // 20 is a test value
   });
-// "padding-top",($(window).height() - $(".slider li").height()) / 2
+// actual value "padding-top",($(window).height() - $(".slider li").height()) / 2
 });
